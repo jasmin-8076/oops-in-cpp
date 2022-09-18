@@ -12,21 +12,23 @@ public:
         cout<<"place "<<place<<std::endl;
         cout<<"age "<<age<<std::endl;
     }
+    Employee(string na,string plce,int ag){
 
-
-
-
+     name=na;
+     place=plce;
+     age=ag;
+    
+    
+    
+    }
 
 
 };
 
 int main(){
-    Employee employee1;
+    Employee employee1=Employee("jasmin","calicut",24);
 
-    employee1.name="jasmin";
-    employee1.place="calicut";
-    employee1.age= 20;
-  
+    
      
     employee1.introduceYourself();
 
